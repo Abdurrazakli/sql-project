@@ -1,0 +1,13 @@
+1)Creating table named "teachers"
+php artisan make:migration teacher --create=teachers
+2)Migrating table info to database
+php artisan migrate
+3)Creating custom seeder
+php artisan make:seeder TeacherDataSeeder
+4)Filling fake data into db
+php artisan db:seed
+5)Creating controller
+php artisan make:controller TeacherController
+6)Start server
+php artisan serve
+
